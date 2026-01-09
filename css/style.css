@@ -1,0 +1,24 @@
+/* Remove Default Margin Padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Colors */
+:root{
+    --primary-color: #30B868; /* Green */
+    --secondary-color: #001931; /* Deep Blue */
+    --accent-color: #F95555; /* Orange Color */
+    --title-color: #001931; /* Title Color */
+    --text-color: #627382; /* Text Color */
+    --base-color: #F7F6F2; /* Section BG Color */
+}
+
+
+/* Header CSS */
+
+
+/* Body CSS */
+
+
+/* Footer CSS */
