@@ -9,14 +9,52 @@
 </head>
 <body>
     <!-- Website Header -->
-    <header class="header">
+    <header class="header flex-layout">
+        <div class="container">
+            <img src="./assets/logo-navbar.png" alt="" class="site-logo">
+            
+            <!-- Website Menu -->
+            <nav class="site-menu">
+                <ul>
+                    <li class="menu-items">Features</li>
+                    <li class="menu-items">How It Works</li>
+                    <li class="menu-items">Why It's Different</li>
+                </ul>
+            </nav>
+
+            <!-- CTA Button -->
+            <button class="green-button">
+                Get Early Access
+            </button>
+        </div>
     </header>
 
     <!-- Website Content -->
-    <main>
+    <main class="flex-layout">
         <!-- Hero Section -->
          <div class="hero-section">
-            
+            <div class="top-tooltip">
+                <img src="./assets/tooltip.svg" alt="Point Icon">
+                <span>Early Access Now Open</span>
+            </div>
+
+            <h1>Structured Thinking, <br><span class="highlight">Not Just Note-Taking.</span> </h1>
+
+            <p class="sub-title">
+                A private space to store notes, links, and learning summaries — designed to <br> help you think clearly, connect ideas, and turn learning into long-term knowledge.
+            </p>
+
+            <div class="hero-button-wrapper">
+            <button class="green-button">
+                Start Building Your Vault
+                <img src="./assets/ArrowRight.png" alt="Right Arrow">
+            </button>
+
+            <button class="outline-button">
+                <img src="./assets/play-button.svg" alt="Play Button">
+                See How It Works
+            </button>
+        </div>
          </div>
     </main>
 

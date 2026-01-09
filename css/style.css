@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* Global Colors */
 :root{
     --primary-color: #30B868; /* Green */
@@ -12,13 +15,133 @@
     --title-color: #001931; /* Title Color */
     --text-color: #627382; /* Text Color */
     --base-color: #F7F6F2; /* Section BG Color */
+    --white: #ffffff; /* White Color */
+}
+
+/* Global CSS */
+.container{
+    width: 1360px;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.flex-layout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.green-button{
+    padding: 12px 16px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 4px;
+    border: 0px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.green-button:hover{
+    background-color: var(--accent-color);
+}
+.outline-button{
+    padding: 12px 16px;
+    background-color: transparent;
+    color: var(--white);
+    border-radius: 4px;
+    border: 1px solid var(--white);
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.outline-button:hover{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 
 /* Header CSS */
+.header{
+    padding: 16px 0px;
+    background-color: var(--white);
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-menu ul{
+    display: flex;
+    gap: 32px;
+}
+.site-menu ul li{
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 
 
 /* Body CSS */
+.hero-section{
+    background-image: url(/assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 674px;
+    width: 100%;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.hero-section h1{
+    color: var(--white);
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+}
+.highlight{
+    color: var(--primary-color);
+}
+.sub-title{
+    color: var(--white);
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+.top-tooltip{
+    display: flex;
+    padding: 8px 12px;
+    background-color: var(--white);
+    gap: 6px;
+    border-radius: 50px;
+    width: 229px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.top-tooltip span{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.hero-button-wrapper{
+    display: flex;
+    gap: 16px;
+    margin-top: 15px;
+}
 
 /* Footer CSS */
