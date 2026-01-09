@@ -94,7 +94,7 @@ body{
 
 /* Body CSS */
 .hero-section{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
