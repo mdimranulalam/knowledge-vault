@@ -30,6 +30,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .green-button{
     padding: 12px 16px;
@@ -143,5 +145,73 @@ body{
     gap: 16px;
     margin-top: 15px;
 }
+
+
+/* Note Section */
+.note-section{
+    padding: 60px 0px;
+}
+
+.note-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+
+}
+
+.title-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+.note-section h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--title-color);
+    text-transform: capitalize;
+    
+}
+.note-section p{
+    color: var(--text-color);
+}
+.note-box-wrapper{
+    display: flex;
+    gap: 24px;
+}
+
+.notebox{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+    width: 25%;
+    text-align: center;
+    padding: 70px 24px;
+    box-shadow: 0px 0px 8px 0px #00000020;
+    border-radius: 8px;
+}
+.notebox-icon{
+    width: 60px;
+    height: 60px;
+    background-color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.notebox img{
+
+}
+.notebox h3{
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
 
 /* Footer CSS */
