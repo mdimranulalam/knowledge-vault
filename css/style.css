@@ -305,3 +305,38 @@ body{
 }
 
 /* Footer CSS */
+.footer-section{
+    height: 348px;
+    background-color: var(--secondary-color);
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.socials h4{
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.social-icons{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-copyright{
+    border-top: 1px solid #fafafa50;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.footer-copyright p{
+    color: var(--text-color);
+    text-align: center;
+        font-family: "Inter", sans-serif;
+        
+}
